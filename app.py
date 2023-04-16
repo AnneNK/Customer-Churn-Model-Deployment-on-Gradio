@@ -112,7 +112,7 @@ with gr.Blocks() as churn:
             ]
     with gr.Row():
 
-       submit_button = gr.Button("Predict Churn").style(full_width=True)
+       
        predict_button = gr.Button("Predict").style(full_width=True)
 
     #output function
