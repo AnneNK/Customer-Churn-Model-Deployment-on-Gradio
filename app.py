@@ -122,7 +122,7 @@ with gr.Blocks() as churn:
 
 
 
-churn.launch(share=True)
+churn.launch(share=True, server_port=8080)
 
 
                                                                                
